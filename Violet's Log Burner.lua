@@ -95,7 +95,7 @@ API.Write_Doaction_paint(true);
 
 while (API.Read_LoopyLoop()) do
     API.RandomEvents();
-    API.DoRandomEvents()
+    API.DoRandomEvents();
 
 
     if (loopprotect1) > 4 then API.Write_LoopyLoop(false); end
